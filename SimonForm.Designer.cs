@@ -136,7 +136,7 @@
             MaximumSize = new Size(355, 375);
             MinimumSize = new Size(355, 375);
             Name = "SimonForm";
-            Text = "Form1";
+            Text = "Simon";
             endGamePanel.ResumeLayout(false);
             endGamePanel.PerformLayout();
             ResumeLayout(false);
