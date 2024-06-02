@@ -54,7 +54,7 @@ namespace SimonVicentin
         }
 
 
-        private void ResetUserMessage()
+        private void ResetGame()
         {
             DisableButtons();
             GameColors.Clear();
@@ -172,7 +172,7 @@ namespace SimonVicentin
 
         private void startButton_Click(object sender, EventArgs e)
         {
-            ResetUserMessage();
+            ResetGame();
             startButton.Enabled = false;
             timer.Start();
         }
